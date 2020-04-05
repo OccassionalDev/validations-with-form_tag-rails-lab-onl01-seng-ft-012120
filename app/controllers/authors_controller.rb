@@ -18,10 +18,12 @@ class AuthorsController < ApplicationController
     end 
   end
   
-  def edit 
+  def edit
+    @post = Post.find(params[:id])
   end 
   
   def update
+    @post = 
   end 
 
   private
