@@ -23,7 +23,7 @@ class AuthorsController < ApplicationController
   end 
   
   def update
-    @post = 
+    @post = Post.find(params[:id])
   end 
 
   private
